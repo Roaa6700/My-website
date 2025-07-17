@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(120, 4%, 5%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #8b043ae4;
+  color:#eae60ee4 ;
+ ;
+  padding: 40px 20px;
+}
+
+section {
+    color:#eae60ee4 ;
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.circle {
+  width: 200px;        
+  height: 200px;        
+  border-radius: 50%;    
+  object-fit: cover;     
+}
+
+body.about-page {
+  color: #eae60ee4;
+  background-color: black;
+}
+
+.myImage {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.enlarged {
+  transform: scale(2); 
+  z-index: 10;
+  position: relative;
+}
