@@ -42,3 +42,22 @@ body.about-page {
   z-index: 10;
   position: relative;
 }
+
+a:link {
+  color: #8b043a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8b043a;
+}
+
+a:hover {
+  color: #eae60e;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #eae60e;
+}
+
